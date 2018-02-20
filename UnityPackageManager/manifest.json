@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "com.unity.resourcemanager": "1.6.0"
+  }
+}

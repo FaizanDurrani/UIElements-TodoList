@@ -1,0 +1,89 @@
+
+#currTodoButton{
+    font-size:18;
+    font: resource("Roboto/Roboto-Bold");
+}
+
+#newTaskButton {
+    width: 80;
+}
+
+#newTaskButton:hover {
+    width: 80;
+}
+Button{
+    font: resource("Roboto/Roboto-Regular");
+    text-color: #ffffff;
+    background-color: #343434;
+    background-image: none;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right: 0;
+}
+
+Button:hover {
+    text-color: #ffffff;
+    background-color: #686868;
+    background-image: none;
+}
+
+#newTaskRow{
+    flex-direction: row;
+}
+
+#newTaskNameInput {
+    font: resource("Roboto/Roboto-Regular");
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: none; 
+    border-right: 1; 
+    border-color: #ffffff;
+    border-bottom-width:2;
+    font-size:16;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #4b4b4b;
+    text-color:#ffffff;
+}
+
+
+#alreadyExistsBox:disabled{
+    height: 0;
+}
+
+#alreadyExistsBox{
+    background-color: #99291e;
+}
+#alreadyExistsBox Label{
+    text-color:#ffffff;
+}
+
+.taskRow {
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.taskRow:hover {
+    background-color: #686868;
+}
+
+.taskNameLabel{
+    font: resource("Roboto/Roboto-Bold");
+    font-size: 15;
+    flex-grow: 1;
+    align-self: center;
+    text-color:#ffffff;
+}
+
+.taskDone{
+    opacity: 0.3;
+}
+ 
+#taskList{
+    background-color:#343434;
+    flex: 1;
+}
